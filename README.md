@@ -6,16 +6,11 @@ This project implements a FeedForward Neural Network (FFNN) from scratch for reg
 ## 📁 Project Structure
 
 ```
-├── Data/
-│   └── Getdata.R               # Script to fetch and preprocess data
-├── Hyperparameter_Tuning/
-│   └── tuning.py              # Grid/random search for optimal parameters
-├── Models/
-│   └── FFNN.py                # FeedForward Neural Network implementation
-├── Predict/
-│   └── ShapleyValues.py       # Shapley value analysis for interpretability
-├── Paper.pdf                  # Final paper/thesis report
-└── README.md                  # Project overview and usage instructions
+FeedForward-Neural-Network/ ├── Data/ # Data preprocessing scripts (R) │ └── Getdata.R
+├── Hyperparameter_Tuning/ # Parameter optimization │ └── tuning.py
+├── Models/ # FFNN model definition and training │ └── FFNN.py
+├── Predict/ # Model interpretation and predictions │ └── ShapleyValues.py
+├── Paper.pdf # Final thesis/report └── README.md # Project overview and instructions
 ```
 
 ## 🚀 Features
