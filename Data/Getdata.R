@@ -3,8 +3,8 @@
 
 ## Load credentials (db_user, db_pw)
 ## %%
-db_user <- "student"
-db_password <- "#q6a21I&OA5k"
+db_user <- "xxxxx"
+db_password <- "xxxxxxx"
 ## %%
 
 ## Load packages
