@@ -12,8 +12,10 @@ FeedForward-Neural-Network/
 │   └── Getdata.R
 ├── Hyperparameter_Tuning/         # Parameter optimization
 │   └── tuning.py
-├── Models/                        # FFNN model definition and training
-│   └── FFNN.py
+├── Models/
+│   ├── Autoregressive_Model.R                   
+│   └── FFNN.py                     # FFNN model definition and training
+
 ├── Predict/                       # Model interpretation and predictions
 │   └── ShapleyValues.py
 ├── Paper.pdf                      # Final thesis/report
